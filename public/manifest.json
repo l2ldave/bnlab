@@ -1,0 +1,11 @@
+{
+  "name": "BN Lab",
+  "short_name": "BN Lab",
+  "description": "Painel de Gestão de Contas de Email - Moderno e Seguro",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f97316",
+  "orientation": "portrait-primary",
+  "scope": "/"
+}
