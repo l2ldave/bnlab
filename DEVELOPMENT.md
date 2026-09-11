@@ -91,17 +91,17 @@ Cada serviço é uma classe que implementa a lógica de um domínio específico.
 
 **accountService.ts**
 - `getContactInformation()` - Obter info de contacto
-- `updateContactInformation()` - Actualizar info
+- `updateContactInformation()` - Atualizar info
 - `getPreferences()` - Obter preferências
-- `updatePreferences()` - Actualizar preferências
+- `updatePreferences()` - Atualizar preferências
 - `changePassword()` - Alterar palavra-passe
 
 **mailboxService.ts**
 - `getAutoresponder()` - Obter autorespostas
-- `updateAutoresponder()` - Actualizar autorespostas
+- `updateAutoresponder()` - Atualizar autorespostas
 - `getEmailFilters()` - Obter filtros
 - `createEmailFilter()` - Criar filtro
-- `updateEmailFilter()` - Actualizar filtro
+- `updateEmailFilter()` - Atualizar filtro
 - `deleteEmailFilter()` - Eliminar filtro
 - `getForwarders()` - Obter reencaminhamentos
 - `createForwarder()` - Criar reencaminhamento
@@ -110,17 +110,17 @@ Cada serviço é uma classe que implementa a lógica de um domínio específico.
 **contactCalendarService.ts**
 - `getContacts()` - Listar contactos
 - `createContact()` - Criar contacto
-- `updateContact()` - Actualizar contacto
+- `updateContact()` - Atualizar contacto
 - `deleteContact()` - Eliminar contacto
 - `getContactGroups()` - Obter grupos
 - `getCalendarEvents()` - Obter eventos
 - `createCalendarEvent()` - Criar evento
-- `updateCalendarEvent()` - Actualizar evento
+- `updateCalendarEvent()` - Atualizar evento
 - `deleteCalendarEvent()` - Eliminar evento
 
 **spamService.ts**
 - `getSpamSettings()` - Obter configurações
-- `updateSpamSettings()` - Actualizar configurações
+- `updateSpamSettings()` - Atualizar configurações
 - `getSpamTrapRules()` - Obter regras
 - `createSpamTrapRule()` - Criar regra
 - `deleteSpamTrapRule()` - Eliminar regra
@@ -137,12 +137,12 @@ Cada serviço é uma classe que implementa a lógica de um domínio específico.
 **useAuth.ts**
 - `login()` - Fazer login
 - `logout()` - Fazer logout
-- `updateUser()` - Actualizar utilizador
+- `updateUser()` - Atualizar utilizador
 - Estados: `user`, `isAuthenticated`, `isLoading`, `error`
 
 **useTheme.ts**
 - `setTheme()` - Alterar tema
-- `getCurrentTheme()` - Obter tema actual
+- `getCurrentTheme()` - Obter tema atual
 - Suporta: 'light', 'dark', 'system'
 
 **useToast.ts**
@@ -371,7 +371,7 @@ const navSections = [
     title: 'Gestão',
     items: [
       // ...
-      { label: 'Assinaturas', href: '/mailbox/signatures', icon: '✍️' },
+      { label: 'Assinaturas', href: '/mailbox/signatures', icon: '✏️' },
     ]
   }
 ];
@@ -412,7 +412,7 @@ Ao adicionar uma nova página/funcionalidade:
 
 - [ ] Criar tipos em `types/index.ts`
 - [ ] Adicionar mock data em `data/mockData.ts`
-- [ ] Criar/actualizar serviço em `services/`
+- [ ] Criar/atualizar serviço em `services/`
 - [ ] Exportar serviço em `services/index.ts`
 - [ ] Criar componentes necessários
 - [ ] Criar página em `app/`
@@ -424,4 +424,4 @@ Ao adicionar uma nova página/funcionalidade:
 
 ---
 
-**Última actualização:** 11/09/2026
+**Última atualização:** 11/09/2026

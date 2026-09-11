@@ -5,7 +5,7 @@
 ## ✨ Características Principais
 
 - 🎨 **Design Claymorphism** - Interface moderna e elegante com sombras suaves e efeito de profundidade
-- 🌓 **Tema Claro/Escuro** - Com detecção automática do sistema operativo
+- 🌙 **Tema Claro/Escuro** - Com detecção automática do sistema operativo
 - 📱 **100% Responsivo** - Desktop, tablet e mobile otimizados
 - 🔐 **Segurança em Primeiro Lugar** - Arquitetura preparada para autenticação segura
 - 🏗️ **Arquitetura Modular** - Fácil de expandir e manter
@@ -46,7 +46,7 @@ src/
 │   ├── dashboard/         # Painel principal
 │   ├── settings/          # Configurações (password, contact, preferences)
 │   ├── mailbox/           # Gestão de caixa (autoresponders, filters, forwarding)
-│   ├��─ contacts/          # Contactos e calendário
+│   ├── contacts/          # Contactos e calendário
 │   ├── spam/              # Controlo de spam
 │   ├── email-client/      # Configuração de clientes de email
 │   ├── support/           # Página de suporte
@@ -54,50 +54,14 @@ src/
 │   ├── terms/             # Termos e condições
 │   └── layout.tsx         # Layout raiz
 ├── components/            # Componentes reutilizáveis
-│   ├── Button.tsx
-│   ├── Input.tsx
-│   ├── Card.tsx
-│   ├── Toggle.tsx
-│   ├── ConfirmDialog.tsx
-│   ├── EmptyState.tsx
-│   ├── LoadingState.tsx
-│   ├── ErrorState.tsx
-│   ├── ProgressBar.tsx
-│   ├── StatusBadge.tsx
-│   ├── ThemeSwitcher.tsx
-│   ├── Breadcrumbs.tsx
-│   ├── PageHeader.tsx
-│   ├── ActionCard.tsx
-│   ├── StatCard.tsx
-│   └── ToastProvider.tsx
 ├── layouts/              # Layouts principais
-│   ├── MainLayout.tsx    # Layout para páginas autenticadas
-│   └── AuthLayout.tsx    # Layout para páginas de autenticação
 ├── services/             # Serviços de lógica de negócio
-│   ├── authService.ts
-│   ├── accountService.ts
-│   ├── mailboxService.ts
-│   ├── contactCalendarService.ts
-│   ├── spamService.ts
-│   ├── emailConfigService.ts
-│   ├── supportService.ts
-│   └── index.ts
 ├── hooks/                # Hooks customizados
-│   ├── useAuth.ts
-│   ├── useTheme.ts
-│   ├── useToast.ts
-│   └── index.ts
 ├── types/                # Definições TypeScript
-│   └── index.ts
 ├── config/               # Configuração centralizada
-│   └── appConfig.ts
 ├── data/                 # Mock data para desenvolvimento
-│   └── mockData.ts
 ├── utils/                # Funções utilitárias
-│   ├── validation.ts
-│   └── index.ts
 └── styles/               # Estilos globais
-    └── globals.css
 ```
 
 ## 🎨 Design System
@@ -119,7 +83,7 @@ Todos os componentes seguem a linguagem **Claymorphism** com:
 ## 📄 Páginas Implementadas
 
 ### Autenticação
-- ✅ Login (com valida��ão)
+- ✅ Login (com validação)
 - ✅ Recuperação de Palavra-passe
 
 ### Dashboard
@@ -209,7 +173,7 @@ appConfig.support.whatsapp      // WhatsApp de suporte
 appConfig.support.hours         // Horário de atendimento
 ```
 
-## 🔐 Segurança
+## 🔒 Segurança
 
 - ✅ Validação de formulários (frontend e backend ready)
 - ✅ Proteção contra XSS com React
